@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Loaded="Window_Loaded" 
+        mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Width="1300" Height="700">
+    <Canvas HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Canvas  Name="main" MouseDown="main_Mouse" Margin="81,0,0,0"  Height="638" Width="1158" Canvas.Left="-620" Canvas.Top="-330" Background="#FFF7F7F7"></Canvas>
+        <Button Canvas.Left="-620" Canvas.Top="-345" Content="Клумба" Height="23" Name="flowerButton" Width="75" Click="fButton_Click" Margin="0,101,1203,0" VerticalAlignment="Top" />
+        <Button Canvas.Left="-620" Canvas.Top="-345" Content="Солнце" Height="23" Name="sunButton" Width="75" Click="sButton_Click" Margin="0,72,1203,566"  VerticalAlignment="Top" />
+        <Button Canvas.Left="-620" Canvas.Top="-345" Content="Облако" Height="23" Name="cloudButton" Width="75" Click="cButton_Click" Margin="0,43,1203,595"  VerticalAlignment="Top" />
+        <Button Canvas.Left="-620" Canvas.Top="-330" Content="Бабочка" Height="23" Name="butterflyButton" Width="75" Click="bButton_Click" Margin="0"  VerticalAlignment="Top" />
+
+    </Canvas>
+</Window>
